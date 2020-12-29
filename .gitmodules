@@ -1,0 +1,12 @@
+[submodule "dispatcher"]
+	path = dispatcher
+	url = git@github.com:AdaptiveComputationLab/dispatcher.git
+	branch = master
+[submodule "cuckoo"]
+	path = cuckoo
+	url = git@github.com:pwnslinger/cuckoo.git
+	branch = wip/patch_aux
+[submodule "detox"]
+	path = detection_engine
+	url = git@github.com:pwnslinger/detection_engine.git
+	branch = master
