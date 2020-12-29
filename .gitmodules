@@ -12,5 +12,5 @@
 	branch = master
 [submodule "vmcloak"]
 	path = vmcloak
-	url = git@gitlab.eecs.umich.edu:kjleach/vmcloak.git
+	url = git@github.com:AdaptiveComputationLab/vmcloak.git
 	branch = dev/vmware
