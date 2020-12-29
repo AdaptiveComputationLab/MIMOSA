@@ -7,6 +7,10 @@
 	url = git@github.com:pwnslinger/cuckoo.git
 	branch = wip/patch_aux
 [submodule "detox"]
-	path = detection_engine
+	path = detox
 	url = git@github.com:pwnslinger/detection_engine.git
 	branch = master
+[submodule "vmcloak"]
+	path = vmcloak
+	url = git@gitlab.eecs.umich.edu:kjleach/vmcloak.git
+	branch = dev/vmware
