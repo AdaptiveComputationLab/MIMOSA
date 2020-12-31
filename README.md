@@ -6,7 +6,7 @@ In the following, we briefly describe each sub-project and our contribution in e
 
 * [covering-alg](./covering-alg/README.md): 
 * [cuckoo](./cuckoo): 
-* [VMCloak](./vmcloak/README.md): 
+* [VMCloak](AdaptiveComputationLab/vmcloak:README.md): 
 * [detox](./detox/README.md):
 * [dispatcher](./dispatcher/README.md): 
 
