@@ -14,5 +14,12 @@ In the following, we briefly describe each sub-project and our contribution in e
 
 <div style="text-align:center"><figure><img src="./images/mimosa.svg"><figcaption>Fig.1 - MIMOSA pipeline consists of Covering algorithm, VMCloak, Dispatcher, and Detox</figcaption></figure></div>
 
+# Additionals
+Here we briefly go through some other scripts and tools we developed to help us during the research. 
+
+
+# How to run?
+
+
 # Reviewer
 This repository contains all the code and experiments for the MIMOSA paper submitted to the TDSC journal. 
