@@ -39,9 +39,30 @@ Here I describe the utilities we used for automating the test, drawing the graph
         | 3cae64dda3c6f609d46131872ab32536fbdbbcbe | False | False | False | False | False | False | False | True | False | False | False | False | False |
 
 
-    * **hash_bitmap**: 
-    * **mitigation_rate**: 
+    * **hash_bitmap**: This file contains sha1sum of each sample following with type of the evasion and evasion techniques used in the form of a bitmap. Each bit constructs a different meaning in our convention which is as the following:
 
+        | Bits | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | 
+        |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+        |Meaning| PROCESS_DETECTION | DEBUGGER_PRESENT | CPUID | RDTSC | CPU_COUNT | INVALID_INST | TICK_COUNT | HCI | BIOS | DRIVER_CHECK | SCSI_CHECK | HDD_SIZE | MEM_SIZE | MAC_ADDR | ACPI |
+            
+    * **mitigation_rate**: Shows the percentage of artifact distribtion in our sample set. For the 1535 samples we have here is the distribution:  
+
+        | Artifact | Count # | 
+        |:--------:|:-------:|
+        |PROCESS_DETECTION| 648|
+        | DEBUGGER_PRESENT |  503 |
+        | RDTSC | 322 |
+        | CPU_COUNT | 2 | 
+        | INVALID_INST | 9 |
+        | TICK_COUNT | 212 |
+        | HCI | 174 | 
+        | BIOS | 954 |
+        | DRIVER_CHECK | 110 | 
+        |  SCSI_CHECK | 592 |
+        | HDD_SIZE | 234 |
+        | MEM_SIZE | 188 | 
+        | ACPI DSDT | 72 |
+6. [plots](./plots/plots.ipynb): Generate plots and diagrams for the paper. 
 
 ---
 ## References

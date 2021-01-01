@@ -13,13 +13,3 @@ In the following, we briefly describe each sub-project and our contribution in e
 * [dispatcher](https://github.com/AdaptiveComputationLab/dispatcher/): is a set of Ansible scripts that deploys the nodes on a cluster based on the covers set provided by the covering lattice algorithm. For instance, it configures the network and firewall rules on nodes, collects the analysis results of each analysis session and stores the results in the log collector. 
 
 <div style="text-align:center"><figure><img src="./images/mimosa.svg"><figcaption>Fig.1 - MIMOSA pipeline consists of Covering algorithm, VMCloak, Dispatcher, and Detox</figcaption></figure></div>
-
-# Additionals
-Here we briefly go through some other scripts and tools we developed to help us during the research. 
-
-
-# How to run?
-
-
-# Reviewer
-This repository contains all the code and experiments for the MIMOSA paper submitted to the TDSC journal. 
