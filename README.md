@@ -21,6 +21,18 @@ Here we share the results of our experiments with the community. All of the resu
 2. [mimosa_cost_results.xlsx](./stats/mimosa_cost_results.xlsx): Results of running each sample under different configuration and their resulting I/O, Memory, CPU utilization per config per sample. These numbers are the basis of our cost model for covering algorithm described in [covering-alg/README.md](./covering-alg/README.md).
 3. [mimosa_VMs.xlsx](./stats/mimosa_VMs.xlsx): Contains VM mapping, sample attributes, some plots, and  statistics. 
 
+# Citing MIMOSA  
+MIMOSA has been submitted for publication as a journal paper at the IEEE Transactions on Dependable and Secure Computing (TDSC). Until its acceptance you can cite this research using the following:  
+
+```tex
+@misc{2101.07328,
+Author = {Mohsen Ahmadi and Kevin Leach and Ryan Dougherty and Stephanie Forrest and Westley Weimer},
+Title = {MIMOSA: Reducing Malware Analysis Overhead with Coverings},
+Year = {2021},
+Eprint = {arXiv:2101.07328},
+}
+```  
+
 # Acknowledgement
 We gratefully acknowledges the partial support of [NSF(CCF 1908633)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1908633), DARPA ([FA8750-19C-0003](https://govtribe.com/award/federal-contract-award/definitive-contract-fa875019c0003), [N6600120C4020](https://www.federalcompass.com/award-contract/N6600120C4020)),AFRL  ([FA8750-19-1-0501](https://govtribe.com/award/federal-idv-award/indefinite-delivery-contract-fa875019d0004)),  and  the  Santa  Fe  Institute.  Any opinions, findings, and conclusions in this paper are those of the authors and do not necessarily reflect the views of oursponsors. The  opinions  in  the  work  are  solely  of  the  authors, and do not necessarily reflect those of the U.S. Army, U.S.Army  Research  Labs,  the  U.S.  Military  Academy, or the Department of Defense (DoD).  
 We also thank the anonymous reviewers for their valuable  comments  and  suggestions,  and  the  Avira  company,Alexander  Vukcevic,  Director  of  Protection  Labs  and  QA, and Shahab Hamzeloofard for helping us with determining provenance of our malware samples.
